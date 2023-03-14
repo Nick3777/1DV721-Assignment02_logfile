@@ -1,0 +1,686 @@
+    1  exit
+    2  ping
+    3  exit
+    4  cls
+    5  clr
+    6  clear
+    7  sudo apt update
+    8  sudo apt upgrade -y
+    9  uname
+   10  uname -srm
+   11  ls
+   12  cd ..
+   13  ls
+   14  cd etc
+   15  ls
+   16  debian_version
+   17  cat debian_version 
+   18  cd apt
+   19  cat sources.list
+   20  list sources.list
+   21  list sources.list.d
+   22  cat sources.list.d
+   23  ls
+   24  cd sources.list.d/
+   25  ls
+   26  nano sources.list
+   27  apt-show-version
+   28  apt-show-versions
+   29  sudo apt install apt-show-versions
+   30  uname -srm
+   31  exit
+   32  uname -srm
+   33  apt-show-versions
+   34  cruft
+   35  apt install cruft
+   36  sudo apt install cruft
+   37  uname -srm
+   38  reboot
+   39  sudo reboot
+   40  clear
+   41  top
+   42  systemctl
+   43  clear
+   44  systemctl -h
+   45  systemctl
+   46  clear
+   47  last
+   48  users
+   49  groups
+   50  whoami
+   51  cat /etc/passwd
+   52  cat /etc/groups
+   53  ls /etc
+   54  cat /etc/group
+   55  clear
+   56  users
+   57  groups
+   58  whoami
+   59  last
+   60  groups
+   61  cat /etc/passwd
+   62  clear
+   63  users
+   64  whoami
+   65  groups
+   66  last
+   67  cat /etc/group
+   68  top
+   69  systemctl
+   70  df
+   71  mount
+   72  mount man
+   73  man mount
+   74  mount -l
+   75  hwinfo
+   76  clear
+   77  df
+   78  mount-l
+   79  mount -l
+   80  clear
+   81  sudo apt install mariadb-server
+   82  clear
+   83  users
+   84  groups
+   85  last
+   86  top
+   87  hwinfo
+   88  clear
+   89  sudo systemctl status mariadb
+   90  sudo mysql
+   91  hwinfo
+   92  clear
+   93  apt install apache2
+   94  sudo apt install apache2
+   95  http://localhost
+   96  firefox http://localhost
+   97  ls
+   98  cd snap
+   99  ls
+  100  cd ..
+  101  mkdir scripts
+  102  cd scripts/
+  103  touch info.bash
+  104  ls
+  105  nano info.bash 
+  106  cat /etc/resolv.conf
+  107  systemd
+  108  systemd --user
+  109  systemd --root
+  110  sudo systemd --user
+  111  ps
+  112  ps -fp 1
+  113  systemctl status
+  114  man 1 systemctl
+  115  systemctl --type=service --state=running
+  116  systemctl --type=service
+  117  clear
+  118  systemctl status apache2
+  119  cat etc/services
+  120  cat etc/service
+  121  cat /etc/service
+  122  cat /etc/services
+  123  clear
+  124  ss -ltup
+  125  man ss
+  126  netcat
+  127  nc
+  128  nc 22
+  129  nc.22
+  130  nc -22
+  131  nc 22
+  132  man nc
+  133  sudo netstat -tulpn
+  134  sudo ss -tulpn 
+  135  sudo ss -tulpn | grep OPEN
+  136  sudo ss -tulpn | grep LISTEN
+  137  sudo lsof -i -P -n
+  138  sudo lsof -i -P -n | grep LISTEN
+  139  sudo ss -tulw
+  140  sudo ss -tulw | grep LISTEN
+  141  sudo nmap -sT -sU -O localhost
+  142  sudo iptables -s
+  143  sudo iptables -S
+  144  cat info.bash
+  145  nano info.bash 
+  146  ip a
+  147  ip r
+  148  hostname -I
+  149  curl ifconfig.me
+  150  ifconfig
+  151  ifconfig.me
+  152  curl ifconfig.me
+  153  dig
+  154  nano info.bash 
+  155  bash info.bash 
+  156  nano info.bash 
+  157  bash info.bash 
+  158  nano info.bash 
+  159  bash info.bash 
+  160  nano info.bash 
+  161  bash info.bash 
+  162  nano info.bash 
+  163  bash info.bash 
+  164  nano info.bash 
+  165  bash info.bash 
+  166  nano info.bash 
+  167  bash info.bash 
+  168  nano info.bash 
+  169  bash info.bash 
+  170  nano info.bash 
+  171  bash info.bash 
+  172  nano info.bash 
+  173  lsb_release a
+  174  lsb_release -a
+  175  lsb_release -cdr
+  176  nano info.bash 
+  177  bash info.bash 
+  178  nano info.bash 
+  179  bash info.bash 
+  180  nano info.bash 
+  181  bash info.bash 
+  182  nano info.bash 
+  183  bash info.bash 
+  184  nano info.bash 
+  185  bash info.bash 
+  186  nano info.bash 
+  187  top
+  188  ps
+  189  ps aux
+  190  ps ux
+  191  htop
+  192  clear
+  193  free -m
+  194  vmstat -s
+  195  cat /proc/meminfo
+  196  nano info.bash 
+  197  bash info.bash 
+  198  nano info.bash 
+  199  systemctl status
+  200  bash info.bash 
+  201  nano info.bash 
+  202  bash info.bash 
+  203  bash info.bash s,fdklf
+  204  mv info.bash CSCloud_info.bash
+  205  ls
+  206  touch Apache_info.bash
+  207  ls
+  208  sudo apt install firefox -y
+  209  ls
+  210  cd ..
+  211  firefox
+  212  sudo ln 
+  213  ln --help
+  214  ls -l
+  215  cd /etc/apache2
+  216  ls
+  217  sudo ln -s /etc/apache2/mods-available/cgi.load 
+  218  sudo service apache2 reload
+  219  /usr/lib
+  220  cd /usr/lib
+  221  ls
+  222  cd cgi-bin/
+  223  ls
+  224  touch info.bash
+  225  sudo touch info.bash
+  226  cd ~
+  227  cd scripts/
+  228  nano CSCloud_info.bash 
+  229  cd /usr/lib/cgi-bin/
+  230  nano info.bash 
+  231  sudo
+  232  su 
+  233  sudo nano info.bash
+  234  curl http://localhost/cgi-bin/info.bash
+  235  file info.bash 
+  236  chmod 
+  237  chmod info.bash
+  238  ls -al
+  239  sudo chmod +x info.bash 
+  240  ls -al
+  241  curl http://localhost/cgi-bin/info.bash
+  242  sudo curl http://localhost/cgi-bin/info.bash
+  243  cd ~
+  244  sudo apt install slim
+  245  sudo apt install ubuntu-desktop
+  246  firefox
+  247  sudo service slim start
+  248  sudo reboot
+  249  ls
+  250  sudo service slim start
+  251  cd /var/ww
+  252  cd /var/www
+  253  ls
+  254  cd html/
+  255  ls
+  256  nano index.html 
+  257  sudo mv index.html default_index.html
+  258  ls
+  259  touch index.html
+  260  sudo touch index.html
+  261  sudo nano index.html
+  262  nano index.html 
+  263  sudo nano index.html
+  264  sudo nano default_index.html 
+  265  sudo nano index.html
+  266  cd ..
+  267  cd /etc
+  268  ls
+  269  cd apache2/
+  270  ls
+  271  cd ..
+  272  sudo ln -s /etc/apache2/mods-available/cgi.load /etc/apache2/mods-enabled/
+  273  sudo systemctl restart apache2
+  274  cd /var
+  275  cd /www
+  276  ls
+  277  cd www
+  278  ls
+  279  cd html
+  280  ls
+  281  cd /etc/apache2
+  282  cd mods-available/
+  283  ls
+  284  cd /
+  285  find info.bash
+  286  findo index.html
+  287  find index.html
+  288  sudo find index.html
+  289  sudo find -f -name index.html
+  290  sudo find -type=f -name index.html
+  291  sudo find -name index.html
+  292  sudo find -name info.bash
+  293  cd /usr/lib/cgi-bin/
+  294  ls
+  295  mv info.bash info.cgi
+  296  sudo mv info.bash info.cgi
+  297  ls
+  298  ls -al
+  299  chmod 755 info.cgi
+  300  sudo chmod 755 info.cgi
+  301  ls -al
+  302  DISPLAY
+  303  ubuntu-desktop
+  304  dpkg -l ubuntu-desktop
+  305  purge ubuntu-desktop
+  306  sudo apt remove ubuntu-desktop
+  307  sudo apt remove slim
+  308  sudo apt autoremove
+  309  cd /
+  310  ds -h
+  311  du -h | sort -rh
+  312  sudo du -h | sort -rh | head -n 5
+  313  sudo du  | sort -rh | head -n 5
+  314  sudo du -h | sort -rh | head -n 5
+  315  exit
+  316  quit
+  317  exit
+  318  bye
+  319  close
+  320  cd ~
+  321  quit
+  322  exit
+  323  stop
+  324  exit
+  325  logout
+  326  clear
+  327  cd /etc/apache2
+  328  ls
+  329  cd /usr/lib
+  330  ls
+  331  cd cgi-bin/
+  332  ls
+  333  mv info.cgi info.bash
+  334  sudo mv info.cgi info.bash
+  335  ls
+  336  clear
+  337  ls
+  338  bash info.bash
+  339  ls
+  340  ls -l info.bash
+  341  cd /etc/apache2
+  342  ls
+  343  cat apache2.conf
+  344  nano apache2.conf
+  345  sudo nano apache2.conf
+  346  sudo service apache2 restart
+  347  cd /usr/lib
+  348  ls
+  349  cd cgi
+  350  cd cgi-bin/
+  351  ls
+  352  bash info.bash 
+  353  cd /etc/apache2
+  354  ls
+  355  sudo nano apache2.conf 
+  356  sudo systemctl service apache2 restart
+  357  sudo service apache2 restart
+  358  sudo nano apache2.conf 
+  359  sudo service apache2 restart
+  360  sudo service apache2 reload
+  361  sudo nano apache2.conf 
+  362  sudo service apache2 reload
+  363  sudo service apache2 restart
+  364  sudo nano apache2.conf 
+  365  cd /usr/lib/cgi-bin/
+  366  ls
+  367  sudo nano apache2.conf 
+  368  cd /etc/apache2
+  369  sudo nano apache2.conf 
+  370  exit
+  371  whereis apache
+  372  whereis apache2
+  373  whereis apache2.config
+  374  sudo apt install apache2 -y
+  375  sudo apt-get upgrade
+  376  sudo ln -s /ect/apache2/mods-available/cgi.load
+  377  sudo service apache2 reload
+  378  cd /usr/lib/cgi-bin
+  379  ls
+  380  curl http://localhost/cgi-bin/info.bash
+  381  cd /etc/apache2
+  382  ls
+  383  cd /etc/apache2/cgi.load
+  384  cgi.load
+  385  ln -s cgi.load
+  386  apache2.conf
+  387  nano apache2.conf
+  388  sudo nano apache2.conf
+  389  cd /var
+  390  ls
+  391  cd /var/www
+  392  ls
+  393  sudo chown -R www-data:www-data /usr/lib
+  394  chmod go-rwx /usr/lib/cgi-bin
+  395  sudo chmod go-rwx /usr/lib/cgi-bin
+  396  sudo chmod go+x /usr/lib/cgi-bin
+  397  curl http://localhost/cgi-bin/info.bash
+  398  service apache2 reload
+  399  sudo service apache2 reload
+  400  curl http://localhost/cgi-bin/info.bash
+  401  clear
+  402  cd ..
+  403  ls
+  404  cd bin
+  405  ls
+  406  cd apache2
+  407  cd /etc/apache2
+  408  ls
+  409  sudo nano apache2.conf
+  410  a2enmod cgi
+  411  sudo a2enmod cgi
+  412  sudo systemctl restart apache2
+  413  cd /usr
+  414  ls
+  415  cd bin
+  416  ls
+  417  cd cgi-bin
+  418  whereis cgi-bin
+  419  cd /usr/lib/cgi-bin
+  420  ls
+  421  sudo ls
+  422  nano info.bash
+  423  sudo nano info.bash
+  424  sudo systemctl restart apache2
+  425  curl http:\\localhpst
+  426  curl http://localhpst
+  427  curl http://localhost/index.html
+  428  curl http://localhost/cgi-bin/info.bash
+  429  curl http://localhost/usr/lib/cgi-bin/info.bash
+  430  curl http://localhost/cgi-bin/info.bash
+  431  ls
+  432  chmod -R 777 ./
+  433  sudo chmod -R 777 ./
+  434  curl http://localhost/cgi-bin/info.bash
+  435  clear
+  436  chmod +x info.bash 
+  437  sudo chmod +x info.bash 
+  438  a2enmod cgi
+  439  cd /etc/apache2
+  440  ls
+  441  sudo nano apache2.conf 
+  442  cd /usr/lib/cgi-bin/
+  443  sudo nano info.bash 
+  444  curl http://localhost/cgi-bin/info.bash
+  445  sudo nano info.bash 
+  446  curl http://localhost/cgi-bin/info.bash
+  447  systemctl apache2 restart
+  448  systemctl restart apache2
+  449  sudo systemctl restart apache2
+  450  bash info.bash 
+  451  sudo nano info.bash 
+  452  sudo systemctl status
+  453  sudo systemctl
+  454  sudo apt-get remove slim
+  455  sudo apt-get remove slim.service
+  456  sudo apt-get purge slim
+  457  bash info.bash 
+  458  sudo systemctl
+  459  sudo system disable slim.service
+  460  sudo systemctl disable slim.service
+  461  bash info.bash
+  462  sudo systemctl reset-failed
+  463  sudo systemctl status
+  464  bash info.bash
+  465  sudo nano info.bash
+  466  sudo systemctl restart apache2
+  467  sudo nano info.bash
+  468  bash info.bash
+  469  sudo nano info.bash
+  470  bash info.bash
+  471  sudo nano info.bash
+  472  bash info.bash
+  473  sudo nano info.bash
+  474  bash info.bash
+  475  sudo nano info.bash
+  476  bash info.bash
+  477  sudo nano info.bash
+  478  info.bash > output.txt
+  479  bash info.bash > output.txt
+  480  ls
+  481  cat output.txt
+  482  sudo nano info.bash
+  483  whereis apache2.conf
+  484  cd /
+  485  whereis apache2.conf
+  486  cd /etc/apache2
+  487  ls
+  488  nano apache2.conf
+  489  cd /usr/bin/cgi-bin
+  490  cd /usr/lib/cgi-bin
+  491  sudo nano info.bash 
+  492  sudo bash info.bash
+  493  clear
+  494  cd /var/www
+  495  ls
+  496  cd ~
+  497  ls
+  498  cd ..
+  499  ls
+  500  cd ubuntu
+  501  psw
+  502  ls
+  503  ls -al
+  504  psw
+  505  pwd
+  506  clear
+  507  ls
+  508  touch backup.bash
+  509  nano backup.bash 
+  510  bash backup.bash
+  511  cd /var
+  512  ls
+  513  ls -al
+  514  cd ~
+  515  nano backup.bash 
+  516  bash backup.bash
+  517  ls
+  518  tar -t backup.tar.gz
+  519  tar -tf backup.tar.gz
+  520  bash backup.bash
+  521  ls
+  522  nano backup.bash 
+  523  bash backup.bash
+  524  nano backup.bash 
+  525  bash backup.bash
+  526  nano backup.bash 
+  527  bash backup.bash
+  528  nano backup.bash 
+  529  bash backup.bash
+  530  nano backup.bash 
+  531  bash backup.bash
+  532  nano backup.bash 
+  533  bash backup.bash
+  534  nano backup.bash 
+  535  bash backup.bash
+  536  nano backup.bash 
+  537  bash backup.bash
+  538  nano backup.bash 
+  539  bash backup.bash
+  540  nano backup.bash 
+  541  bash backup.bash
+  542  ls
+  543  tar -td backup.tar.gz
+  544  tar --exclude="*/*" -tf backup.tar.gz
+  545  tar --exclude="*/*/*" -tf backup.tar.gz
+  546  tar --exclude="*/*/*/*" -tf backup.tar.gz
+  547  ls
+  548  tar --exclude="*/*/*/*" -tf backup.tar.gz
+  549  nano backup.bash
+  550  whereis mariadb
+  551  dpkg -l | grep mariadb
+  552  mysql SELECT @@version
+  553  clear
+  554  sudo systemctl status mariadb
+  555  cd /usr/lib/cgi-bin
+  556  ls
+  557  touch database.bash
+  558  ls
+  559  nano database.bash
+  560  bash database.bash
+  561  nano database.bash
+  562  bash database.bash
+  563  nano database.bash
+  564  bash database.bash
+  565  nano database.bash
+  566  bash database.bash
+  567  nano database.bash
+  568  bash database.bash
+  569  ls
+  570  nano database.bash
+  571  ls
+  572  nano info.bash 
+  573  nano database.bash
+  574  bash database.bash
+  575  bash info.bash
+  576  bash database.bash
+  577  nano database.bash
+  578  ls
+  579  sudo systemctl restart apache2
+  580  bash database.bash
+  581  nano database.bash
+  582  ls
+  583  info.bash
+  584  nano info.bash
+  585  nano database.bash 
+  586  bash database.bash
+  587  ls
+  588  database.bash
+  589  nano database.bash
+  590  ls
+  591  ls -al
+  592  chmod +x database.bash 
+  593  ls -al
+  594  ls
+  595  nano database.bash 
+  596  bash database.bash 
+  597  nano database.bash 
+  598  bash database.bash 
+  599  nano database.bash 
+  600  mariadb --version
+  601  nano database.bash 
+  602  bash database.bash
+  603  nano database.bash 
+  604  clear
+  605  mysql
+  606  clear
+  607  sudo mysql
+  608  clear
+  609  sudo mysql
+  610  clear
+  611  sudo mysql
+  612  clear
+  613  sudo mysql
+  614  (echo "SELECT * FROM personal" | mysql my_database -u)
+  615  (echo "SELECT * FROM personal" | mysql my_database )
+  616  sudo (echo "SELECT * FROM personal" | mysql my_database )
+  617  sudo echo "SELECT * FROM personal" | mysql my_database 
+  618  sudo echo "SELECT * FROM personal" | sudo mysql my_database 
+  619  ls
+  620  nano database.bash 
+  621  bash database.bash 
+  622  nano database.bash 
+  623  bash database.bash 
+  624  nano database.bash 
+  625  bash database.bash 
+  626  nano database.bash 
+  627  bash database.bash 
+  628  nano database.bash 
+  629  echo "SELECT * FROM personal" | sudo mysql my_database 
+  630  nano database.bash 
+  631  echo "SELECT * FROM personal" | sudo mysql my_database
+  632  nano database.bash 
+  633  bash database.bash 
+  634  nano database.bash 
+  635  sudo chmod +s database.bash
+  636  bash database.bash 
+  637  nano database.bash 
+  638  mysql
+  639  sudo mysql -u root
+  640  mysql -d my_database
+  641  mysql my_database
+  642  mysql use my_database
+  643  mysql -u 'ubuntu'@'localhost' -p
+  644  mysql -u 'ubuntu'@'localhost' 
+  645  mysql -u 'ubuntu'@'localhost' -p
+  646  mysql -u 'ubuntu' 
+  647  mysql -u 'ubuntu' -p
+  648  mysql
+  649  sudo mysql
+  650  mysql -u ubuntu -p
+  651  sudo chown ubuntu database.bash
+  652  bash database.bash 
+  653  nano database.bash 
+  654  sudo mysql
+  655  mysql
+  656  mysql my_database
+  657  sudo mysql
+  658  mysql -u ubuntu
+  659  mysql -u ubuntu -p
+  660  sudo chmod -R 755 /var/lib/mysql/
+  661  mysql
+  662  chmod 755 /run/mysqld
+  663  sudo chmod 755 /run/mysqld
+  664  sudo systemctl restart mariadb
+  665  mysql
+  666  mysql -u ubuntu
+  667  mysql --user=root
+  668  mysql --user=root --password=root..
+  669  whereis mariadb
+  670  whereis mysql
+  671  sudo mysql
+  672  mysql
+  673  nano database.bash 
+  674  (echo 'SELECT * FROM personal') | mysql my_database
+  675  mysql
+  676  sudo mysql
+  677  nano database.bash
+  678  exit
+  679  clear
+  680  ls
+  681  rm backup.tar.gz 
+  682  ls
+  683  exit
+  684  clear
+  685  history
+  686  history > history.txt
